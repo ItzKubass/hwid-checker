@@ -44,9 +44,10 @@ HWID (Hardware ID) is a unique identifier of a computer based on hardware and sy
 2. Install dependencies:
    ```bash
    pip install wmi
-Run the script:
+3. Run the script:
+   ```bash
+   python hwid_checker.py
 
-python hwid_checker.py
 In the GUI window, click the Load Full System Info button to display the complete system fingerprint.
 
 Security and Privacy
@@ -54,3 +55,4 @@ This tool collects sensitive hardware and system information. Use it only on dev
 
 License
 This project is open source. You are free to use and modify it. Please credit the author if you include it in your own projects.
+
